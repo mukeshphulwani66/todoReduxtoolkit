@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+input:focus{
+  border-bottom: 2px solid #ff4081 !important;
+  box-shadow: none !important;
+}
+
+.collection-item:hover{
+  text-decoration: line-through;
+  cursor: pointer;
+}
