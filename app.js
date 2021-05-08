@@ -19,6 +19,7 @@ mongoose.connection.on('connected',()=>{
 mongoose.connection.on('error',(err)=>{
     console.log('error',err)
 })
+app.use(cors())
 
 app.use(express.json())
 
