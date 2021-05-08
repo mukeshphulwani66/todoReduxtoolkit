@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const PORT = 5000
 const User = require('./models/user')
 const bcrypt = require('bcryptjs')
+const cors = require('cors')
 const jwt = require('jsonwebtoken')
 const {JWT_SECRET,MOGOURI} = require('./config/keys')
 const Todo = require('./models/todo')
